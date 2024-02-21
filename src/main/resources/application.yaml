@@ -1,0 +1,13 @@
+spring:
+  main:
+    lazy-initialization: true
+    allow-bean-definition-overriding: true
+  jpa:
+    properties:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://localhost:3306/Spliwise
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      password: keyur1309
+      username: root
